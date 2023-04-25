@@ -9,11 +9,11 @@ the root directory should look like this.
 
 > model
 >
-> > parameters.ini
-> > dataset.pickle
-> > model.ckpt.data-0000-of-000001
-> > model.ckpt.index
-> > model.ckpt.meta
+> > - parameters.ini
+> > - dataset.pickle
+> > - model.ckpt.data-0000-of-000001
+> > - model.ckpt.index
+> > - model.ckpt.meta
 >
 > PharmaCoNER-Tagger
 > Dockerfile
