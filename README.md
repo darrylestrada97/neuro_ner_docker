@@ -7,7 +7,7 @@ This repository contains a Python application that creates a Flask server to ser
 In the root folder create a folder named model and in here store your Neuro NER pickle and checkpoint files.
 the root directory should look like this.
 
-> model
+> - model
 >
 > > - parameters.ini
 > > - dataset.pickle
@@ -15,9 +15,9 @@ the root directory should look like this.
 > > - model.ckpt.index
 > > - model.ckpt.meta
 >
-> PharmaCoNER-Tagger
-> Dockerfile
-> app.py
+> - PharmaCoNER-Tagger
+> - Dockerfile
+> - app.py
 
 ---
 
