@@ -1,0 +1,6 @@
+**/valid
+**/deploy
+**/test
+**/train
+model/*
+**/__pycache__/**

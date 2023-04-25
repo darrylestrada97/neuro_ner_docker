@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  flask-pharmaconer:
+    build: ./
+    container_name: pharmaconer
+    ports:
+      - 8003:5000
+    volumes:
+      - ./:/app
+    command: uwsgi --http 0.0.0.0:5000 --callable app --module app --master --processes 4 --threads 2
+    restart: always
